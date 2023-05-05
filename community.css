@@ -1,0 +1,146 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Page Styles */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f7f7f7;
+  }
+  
+  header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    }
+    
+    nav ul li a:hover {
+    background-color: #333;
+    color: #fff;
+    }
+    
+    main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    }
+    
+    .hero {
+    text-align: center;
+    margin-bottom: 40px;
+    }
+    
+    .hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    }
+    
+    .hero p {
+    font-size: 24px;
+    color: #666;
+    }
+    
+    .community {
+    margin-bottom: 40px;
+    }
+    
+    .community h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    }
+    
+    .community ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    .community li {
+    width: 30%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    }
+    
+    .community li img {
+    width: 100%;
+    margin-bottom: 20px;
+    }
+    
+    .community li h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    }
+    
+    .community li p {
+    font-size: 16px;
+    color: #666;
+    }
+    
+    .join {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: center;
+    }
+    
+    .join h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    }
+    
+    .join label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+    }
+    
+    .join input,
+    .join textarea {
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    }
+    
+    .join button {
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+    
+    .join button:hover {
+    background-color: #666;
+    }
+   
+  

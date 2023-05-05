@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="about.css">
+  <div class="a">
+    <title>About Us</title>
+    <style>
+      /* Global Styles */
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+      }
+
+      a {
+        text-decoration: none;
+        color: #333;
+      }
+
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      Header Styles header {
+        background-color: #fff;
+        border-bottom: 1px solid #eee;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        position: fixed;
+        width: 100%;
+        z-index: 999;
+      }
+
+      nav {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px 0;
+      }
+
+      nav ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      nav li {
+        margin: 0 10px;
+      }
+
+      nav a {
+        font-weight: bold;
+        color: #333;
+        transition: all 0.3s ease-in-out;
+      }
+
+      nav a:hover {
+        color: #32CD32;
+      }
+
+      nav .active a {
+        color: #32CD32;
+      }
+
+      Main Styles main {
+        margin-top: 100px;
+        z-index: 1;
+      }
+
+      .hero {
+        background-image: url(bg5.png);
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* -webkit-filter: blur(px); */
+      }
+
+      .hero-content {
+        text-align: center;
+        color: #fff;
+      }
+
+      .about-p {
+        color: rgb(15, 15, 15);
+      }
+
+      .hero h1 {
+        font-size: 48px;
+        margin-bottom: 20px;
+        margin: auto;
+        color: rgb(15, 16, 16);
+        text-align: center;
+        font-family: monospace;
+      }
+
+      .hero p {
+        font-size: 24px;
+        margin-bottom: 0;
+        text-align: center;
+      }
+
+      .content {
+        background-color: #f5f5f5;
+        padding: 80px 0;
+        font-weight: lighter;
+      }
+
+      .container {
+
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+
+      .content h2 {
+        font-size: 36px;
+        margin-bottom: 40px;
+        text-align: center;
+      }
+
+      .feature {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 80px;
+      }
+
+      .feature img {
+        width: 50%;
+        margin-right: 20px;
+      }
+
+      .feature-content {
+        width: 50%;
+      }
+
+      .feature-content h3 {
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+
+      .feature-content p {
+        font-size: 16px;
+        line-height: 1.5;
+      }
+
+      .team {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+      }
+
+      .member {
+        width: 300px;
+        margin: 20px;
+        text-align: center;
+      }
+
+      .member img {
+        width: 260px;
+        height: 400px;
+        margin-bottom: 20px;
+        border-radius: 2px;
+        background-size: cover;
+      }
+
+      .member h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+
+      .member p {
+        font-size: 16px;
+        line-height: 1.5;
+      }
+
+      /* Footer Styles */
+      footer {
+        background-color: #eee;
+        border-top: 1px solid #ddd;
+        padding: 20px;
+        text-align: center;
+      }
+
+      footer p {
+        font-size: 14px;
+        margin: 0;
+      }
+
+      @media screen and (max-width: 768px) {
+        nav ul {
+          display: block;
+          text-align: center;
+        }
+
+        nav li {
+          margin: 10px 0;
+        }
+
+        .feature {
+          flex-direction: column;
+          text-align: center;
+        }
+
+        .feature img {
+          width: 100%;
+          margin-right: 0;
+          margin-bottom: 20px;
+        }
+
+        .feature-content {
+          width: 100%;
+        }
+
+        .member {
+          width: 100%;
+        }
+      }
+    </style>
+</head>
+
+<body>
+
+  <section class="hero">
+    <div class="hero-content">
+      <!-- <h1>About Us</h1>
+            <p class="about-p">We are a travel agency that provides unique and unforgettable travel experiences.</p>
+          </div> -->
+  </section>
+
+  <section class="content">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>At MR. Travel, our story began with a passion for exploration and a desire to share the beauty of the world
+        with others. Founded by a group of avid travelers, we've dedicated ourselves to crafting unforgettable journeys
+        that allow our clients to experience the culture, history, and natural wonders of destinations near and far.
+        Whether it's a romantic getaway, a family adventure, or a solo expedition, we believe that travel has the power
+        to enrich our lives and create lasting memories.
+      <p></p> From the moment you book with us to the end of your trip, our team is committed to providing exceptional
+      service and personalized attention to ensure that your journey is seamless and stress-free. Join us on a journey
+      of discovery and let us help you create the trip of a lifetime. </p>
+      <h2>Our Team</h2>
+      <div class="team">
+        <div class="member">
+          <img src="p.jpg" alt="Team Member">
+          <h3>Pravesh Bhatnagar</h3>
+          <p>Founder & CEO</p>
+        </div>
+        <div class="member">
+          <img src="IMG_20200717_134309.jpg" alt="Team Member">
+          <h3>Nishant Tehlan</h3>
+          <p>Marketing Director</p>
+        </div>
+        <div class="member">
+          <img src='Snapchat-563865281-01.jpeg' alt="Team Member">
+          <h3>Mohit</h3>
+          <p>Relationship Manager</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Mr. Travel. All rights reserved.</p>
+  </footer>
+</body>
+</div>
+
+</html>
